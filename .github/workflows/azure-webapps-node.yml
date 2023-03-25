@@ -17,6 +17,8 @@ jobs:
           node-version: '14.x'
       - name: Install dependencies
         run: npm install
+      - name: Build React Project
+        run: npm run start
       - name: Build and deploy
         uses: Azure/webapps-deploy@v2
         with:
