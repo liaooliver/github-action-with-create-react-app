@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'web-continue-improve'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_696F62F1861C4E2C9DFC7CA99B8B8F42 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: .
